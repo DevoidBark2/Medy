@@ -1,0 +1,142 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.container{
+    width: 1296px;
+    margin: auto;
+}
+.header{
+    background-color: #fff;
+}
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+/* .header__logo, .header__tel , .header__list, .header__button , .header__linked{
+    border-top: olive;
+} */
+.header__list{
+    display: flex;
+    align-items: center;
+}
+.header__linked  a{
+    padding-right: 56px;
+}
+.telephone{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+}
+.btn{
+    color: #fff;
+    background-color: #00868A;
+    border: none;
+    width: 280px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.header-li{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.button__photo{
+    margin-right: 10px;
+}
+.first__screen{
+    background-color: #4FBFA5;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.list .list__text{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+}
+.list__text{
+    margin-right: 60px;
+}
+.button__record{
+    width: 175px;
+    height: 40px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+}
+.button__recored-text{
+    color: #000000;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+.main__screen{
+    display: flex;
+    justify-content: space-between;
+}
+.main__screen-desc{
+    width: 550px;
+    margin-top: 100px;
+}
+.main__screen-title{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 150%;
+    color: #fff;
+}
+.main__screen-text{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 25px;
+    color: #fff;
+}
+.main__screen-btn{
+    width: 163px;
+    height: 50px;
+    margin-top: 40px;
+    background-color: #00868A;
+    border: none;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #fff;
+    align-items: center;
+}
+.main__slider-line{
+    margin-left: 350px;
+    margin-top: 38px;
+    width: 119px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    
+}
+.navbar{
+    margin-top: -3px;
+}
+.navbar__menu{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
